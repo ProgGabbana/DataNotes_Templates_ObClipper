@@ -1,0 +1,68 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Goodreads_DataNote",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "Cover",
+			"value": "{{image}}",
+			"type": "text"
+		},
+		{
+			"name": "Categories",
+			"value": "[[Books]]",
+			"type": "text"
+		},
+		{
+			"name": "Published",
+			"value": "{{selector:p[data-testid='publicationInfo']|split:\\\"First published \\\"|slice:1|date:\\\"YYYY\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "Author",
+			"value": "{{schema:author[0].name}}",
+			"type": "text"
+		},
+		{
+			"name": "Genre",
+			"value": "{{selector:.BookPageMetadataSection__genres .BookPageMetadataSection__genreButton|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Description",
+			"value": "{{selector:.BookPageMetadataSection__description}}",
+			"type": "text"
+		},
+		{
+			"name": "Pages",
+			"value": "{{schema:numberOfPages}}",
+			"type": "text"
+		},
+		{
+			"name": "Language",
+			"value": "{{schema:inLanguage}}",
+			"type": "text"
+		},
+		{
+			"name": "Score",
+			"value": "{{schema:aggregateRating.ratingValue|round:1}}",
+			"type": "number"
+		},
+		{
+			"name": "My_Score",
+			"value": "",
+			"type": "number"
+		},
+		{
+			"name": "Bookmark",
+			"value": "",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://www.goodreads.com/book/"
+	],
+	"noteNameFormat": "{{schema:name}}",
+	"path": "99_Assets/Data_Notes"
+}
