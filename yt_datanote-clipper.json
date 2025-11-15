@@ -1,0 +1,38 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "YT_DataNote",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "Tags",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "Cover",
+			"value": "{{schema:thumbnailUrl|slice:0}}",
+			"type": "text"
+		},
+		{
+			"name": "Author",
+			"value": "{{schema:author}}",
+			"type": "text"
+		},
+		{
+			"name": "Duration",
+			"value": "{{schema:duration|slice:2,-1|duration:\\\"H:mm:ss\\\"}}",
+			"type": "text"
+		},
+		{
+			"name": "Published",
+			"value": "{{schema:uploadDate|date: \\\"DD/MM/YY\\\"}}",
+			"type": "date"
+		}
+	],
+	"triggers": [
+		"https://www.youtube.com/watch?v="
+	],
+	"noteNameFormat": "{{schema:name}}",
+	"path": "99_Assets/Data_Notes"
+}
