@@ -1,0 +1,48 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "MangaTaro_DataNote",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "Cover",
+			"value": "{{schema:image}}",
+			"type": "text"
+		},
+		{
+			"name": "Category",
+			"value": "{{schema:genre|wikilink}}",
+			"type": "text"
+		},
+		{
+			"name": "Published",
+			"value": "{{selector:span.flex.items-center.gap-1|nth:3|join|date:\\\"YYYY\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "Author",
+			"value": "{{schema:author.name}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Genres",
+			"value": "{{selector:[class=\\\"px-3 py-1.5 rounded-lg text-xs font-medium bg-neutral-800/80 hover:bg-neutral-700 text-neutral-300 transition-colors\\\"]|join|replace:\\\"Manhwa\\\":\\\"\\\"|replace:\\\"Manga\\\":\\\"\\\"}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Description",
+			"value": "{{selector:.text-justify|first}}",
+			"type": "text"
+		},
+		{
+			"name": "CurrentChapter",
+			"value": "",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://mangataro.org/manga/"
+	],
+	"noteNameFormat": "{{schema:name|replace:\"Manhwa | Read Online Free at MangaTaro\":\"\"|replace:\"Manga | Read Online Free at MangaTaro\":\"\"|replace:\"|\":\"\"}}",
+	"path": "99_Assets/Data_Notes"
+}

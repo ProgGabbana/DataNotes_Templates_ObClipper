@@ -1,0 +1,43 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Letterboxd_DataNote",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "Cover",
+			"value": "{{image}}",
+			"type": "text"
+		},
+		{
+			"name": "Category",
+			"value": "[[Movies]]",
+			"type": "text"
+		},
+		{
+			"name": "Director",
+			"value": "{{schema:director[0].name}}",
+			"type": "text"
+		},
+		{
+			"name": "Cast",
+			"value": "{{schema:actors[*].name|slice:0,5|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Genres",
+			"value": "{{schema:genre|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Description",
+			"value": "{{meta:property:og:description}}",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://letterboxd.com/film/"
+	],
+	"noteNameFormat": "{{meta:property:og:title}}",
+	"path": "99_Assets/Data_Notes"
+}

@@ -10,7 +10,7 @@
 			"type": "text"
 		},
 		{
-			"name": "Categories",
+			"name": "Category",
 			"value": "[[Books]]",
 			"type": "text"
 		},
@@ -22,10 +22,10 @@
 		{
 			"name": "Author",
 			"value": "{{schema:author[0].name}}",
-			"type": "text"
+			"type": "multitext"
 		},
 		{
-			"name": "Genre",
+			"name": "Genres",
 			"value": "{{selector:.BookPageMetadataSection__genres .BookPageMetadataSection__genreButton|join}}",
 			"type": "multitext"
 		},
@@ -35,27 +35,17 @@
 			"type": "text"
 		},
 		{
-			"name": "Pages",
-			"value": "{{schema:numberOfPages}}",
-			"type": "text"
-		},
-		{
 			"name": "Language",
 			"value": "{{schema:inLanguage}}",
 			"type": "text"
 		},
 		{
-			"name": "Score",
-			"value": "{{schema:aggregateRating.ratingValue|round:1}}",
-			"type": "number"
+			"name": "Pages",
+			"value": "{{schema:numberOfPages}}",
+			"type": "text"
 		},
 		{
-			"name": "My_Score",
-			"value": "",
-			"type": "number"
-		},
-		{
-			"name": "Bookmark",
+			"name": "CurrentPage",
 			"value": "",
 			"type": "text"
 		}

@@ -1,0 +1,48 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "WeebCentral_DataNote",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "Cover",
+			"value": "{{meta:property:og:image}}",
+			"type": "text"
+		},
+		{
+			"name": "Category",
+			"value": "{{selector:.flex.flex-col.gap-4 li:nth-child(3) a.link|wikilink}}",
+			"type": "text"
+		},
+		{
+			"name": "Published",
+			"value": "{{selector:.flex.flex-col.gap-4 li:nth-child(5) span|date:\\\"YYYY\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "Author",
+			"value": "{{selector:.flex.flex-col.gap-4 li:nth-child(1) a.link}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Genres",
+			"value": "{{selector:.flex.flex-col.gap-4 li:nth-child(2) a.link|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Description",
+			"value": "{{selector:.whitespace-pre-wrap|replace:\\\"\\\"\\\":\\\"\\\"}}",
+			"type": "text"
+		},
+		{
+			"name": "CurrentChapter",
+			"value": "",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://weebcentral.com/series/"
+	],
+	"noteNameFormat": "{{title}}",
+	"path": "99_Assets/Data_Notes"
+}

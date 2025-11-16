@@ -10,14 +10,19 @@
 			"type": "multitext"
 		},
 		{
-			"name": "Cover",
-			"value": "{{schema:thumbnailUrl|slice:0}}",
+			"name": "Category",
+			"value": "[[YT]]",
 			"type": "text"
+		},
+		{
+			"name": "Published",
+			"value": "{{schema:uploadDate|date: \\\"DD/MM/YY\\\"}}",
+			"type": "date"
 		},
 		{
 			"name": "Author",
 			"value": "{{schema:author}}",
-			"type": "text"
+			"type": "multitext"
 		},
 		{
 			"name": "Duration",
@@ -25,9 +30,9 @@
 			"type": "text"
 		},
 		{
-			"name": "Published",
-			"value": "{{schema:uploadDate|date: \\\"DD/MM/YY\\\"}}",
-			"type": "date"
+			"name": "Url",
+			"value": "{{url}}",
+			"type": "text"
 		}
 	],
 	"triggers": [

@@ -1,0 +1,48 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Toonily_DataNote",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "Cover",
+			"value": "{{schema:image.url}}",
+			"type": "text"
+		},
+		{
+			"name": "Category",
+			"value": "[[Manhuwa]]",
+			"type": "text"
+		},
+		{
+			"name": "Published",
+			"value": "{{schema:datePublished|date:\\\"YYYY\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "Author",
+			"value": "{{schema:author.name}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Genres",
+			"value": "{{selector:.genres-content|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Description",
+			"value": "{{selector:.summary__content|replace:\\\"\\\"\\\":\\\"\\\"}}",
+			"type": "text"
+		},
+		{
+			"name": "CurrentChapter",
+			"value": "",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://toonily.com/serie/"
+	],
+	"noteNameFormat": "{{schema:headline}}",
+	"path": "99_Assets/Data_Notes"
+}

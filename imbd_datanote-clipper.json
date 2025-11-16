@@ -1,0 +1,43 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Imbd_DataNote",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "Cover",
+			"value": "{{schema:image}}",
+			"type": "text"
+		},
+		{
+			"name": "Category",
+			"value": "[[Movies]]",
+			"type": "text"
+		},
+		{
+			"name": "Director",
+			"value": "{{selector:[data-testid=\\\"title-pc-principal-credit\\\"]:first-child a|unique|join}}",
+			"type": "text"
+		},
+		{
+			"name": "Cast",
+			"value": "{{selector:[data-testid=\\\"title-pc-principal-credit\\\"]:nth-child(3) div a|unique|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Genres",
+			"value": "{{schema:genre|join:\\\", \\\"}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Description",
+			"value": "{{schema:description}}",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://www.imdb.com/it/title/"
+	],
+	"noteNameFormat": "{{title}}",
+	"path": "99_Assets/Data_Notes"
+}
