@@ -1,9 +1,14 @@
 {
 	"schemaVersion": "0.1.0",
-	"name": "YT_DataNote",
+	"name": "YT_Essay_DataNote",
 	"behavior": "create",
 	"noteContentFormat": "",
 	"properties": [
+		{
+			"name": "Cover",
+			"value": "",
+			"type": "text"
+		},
 		{
 			"name": "Tags",
 			"value": "",

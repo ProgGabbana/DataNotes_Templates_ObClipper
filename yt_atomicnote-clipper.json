@@ -1,0 +1,38 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "YT_AtomicNote",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "Tags",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "Published",
+			"value": "{{schema:uploadDate|date: \\\"DD/MM/YY\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "Author",
+			"value": "{{schema:author}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Duration",
+			"value": "{{schema:duration|slice:2,-1|duration:\\\"H:mm:ss\\\"}}",
+			"type": "text"
+		},
+		{
+			"name": "Url",
+			"value": "{{url}}",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://www.youtube.com/watch?v="
+	],
+	"noteNameFormat": "{{schema:name}}",
+	"path": "00_Atomic_Notes"
+}
