@@ -1,0 +1,58 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "MDPI_DateNote",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "Database",
+			"value": "MDPI",
+			"type": "text"
+		},
+		{
+			"name": "JournalTitle",
+			"value": "{{meta:name:citation_journal_title}}",
+			"type": "text"
+		},
+		{
+			"name": "Category",
+			"value": "{{meta:property:og:type|replace:\\\"article\\\":\\\"Articles\\\"}}",
+			"type": "text"
+		},
+		{
+			"name": "Published",
+			"value": "{{selector:.pubhistory|split:\\\"/\\\"|last|date:\\\"DD/MM/YYYY\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "Author",
+			"value": "{{selector:.profile-card-drop|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Abstract",
+			"value": "{{meta:property:og:description}}",
+			"type": "text"
+		},
+		{
+			"name": "ZoteroPath",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "Tags",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "Read",
+			"value": "",
+			"type": "checkbox"
+		}
+	],
+	"triggers": [
+		"https://www.mdpi.com/"
+	],
+	"noteNameFormat": "{{title}}",
+	"path": "99_Assets/DataNotes"
+}

@@ -5,13 +5,18 @@
 	"noteContentFormat": "",
 	"properties": [
 		{
+			"name": "Aliases",
+			"value": "{{selector:[class=\\\"list-disc list-inside\\\"]>li|join}}",
+			"type": "multitext"
+		},
+		{
 			"name": "Cover",
 			"value": "{{meta:property:og:image}}",
 			"type": "text"
 		},
 		{
 			"name": "Category",
-			"value": "{{selector:.flex.flex-col.gap-4 li:nth-child(3) a.link|wikilink}}",
+			"value": "{{selector:.flex.flex-col.gap-4 li:nth-child(3) a.link|first}}",
 			"type": "text"
 		},
 		{
@@ -21,7 +26,7 @@
 		},
 		{
 			"name": "Author",
-			"value": "{{selector:.flex.flex-col.gap-4 li:nth-child(1) a.link}}",
+			"value": "{{selector:.flex.flex-col.gap-4 li:nth-child(1) a.link|first}}",
 			"type": "multitext"
 		},
 		{
@@ -35,14 +40,24 @@
 			"type": "text"
 		},
 		{
+			"name": "ReadingSite",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
 			"name": "CurrentChapter",
 			"value": "",
-			"type": "text"
+			"type": "number"
+		},
+		{
+			"name": "Read",
+			"value": "",
+			"type": "checkbox"
 		}
 	],
 	"triggers": [
 		"https://weebcentral.com/series/"
 	],
 	"noteNameFormat": "{{title}}",
-	"path": "99_Assets/Data_Notes"
+	"path": "DataNotes"
 }

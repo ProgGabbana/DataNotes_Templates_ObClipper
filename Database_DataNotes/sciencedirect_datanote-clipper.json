@@ -1,0 +1,58 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "ScienceDirect_DataNote",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "Database",
+			"value": "ScienceDirect",
+			"type": "text"
+		},
+		{
+			"name": "JournalTitle",
+			"value": "{{meta:name:citation_journal_title}}",
+			"type": "text"
+		},
+		{
+			"name": "Category",
+			"value": "{{meta:name:citation_type|replace:\\\"JOUR\\\":\\\"Articles\\\"}}",
+			"type": "text"
+		},
+		{
+			"name": "Published",
+			"value": "{{meta:name:citation_publication_date|date:\\\"DD/MM/YYYY\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "Author",
+			"value": "{{selector:.react-xocs-alternative-link|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Abstract",
+			"value": "{{selector:[class=\\\"u-margin-s-bottom\\\"]|first}}",
+			"type": "text"
+		},
+		{
+			"name": "ZoteroPath",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "Tags",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "Read",
+			"value": "",
+			"type": "checkbox"
+		}
+	],
+	"triggers": [
+		"https://www.sciencedirect.com/science/article/"
+	],
+	"noteNameFormat": "{{title}}",
+	"path": "99_Assets/DataNotes"
+}

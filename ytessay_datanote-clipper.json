@@ -1,22 +1,17 @@
 {
 	"schemaVersion": "0.1.0",
-	"name": "YT_Essay_DataNote",
+	"name": "YTEssay_DataNote",
 	"behavior": "create",
 	"noteContentFormat": "",
 	"properties": [
 		{
 			"name": "Cover",
-			"value": "",
+			"value": "{{schema:thumbnailUrl|slice:0}}",
 			"type": "text"
 		},
 		{
-			"name": "Tags",
-			"value": "",
-			"type": "multitext"
-		},
-		{
 			"name": "Category",
-			"value": "[[YT]]",
+			"value": "YT",
 			"type": "text"
 		},
 		{
@@ -35,9 +30,19 @@
 			"type": "text"
 		},
 		{
-			"name": "Url",
+			"name": "Video",
 			"value": "{{url}}",
 			"type": "text"
+		},
+		{
+			"name": "Tags",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "Watched",
+			"value": "",
+			"type": "checkbox"
 		}
 	],
 	"triggers": [

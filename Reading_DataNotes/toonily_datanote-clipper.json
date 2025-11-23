@@ -5,13 +5,18 @@
 	"noteContentFormat": "",
 	"properties": [
 		{
+			"name": "Aliases",
+			"value": "{{selector:.summary-content|first}}",
+			"type": "multitext"
+		},
+		{
 			"name": "Cover",
 			"value": "{{schema:image.url}}",
 			"type": "text"
 		},
 		{
 			"name": "Category",
-			"value": "[[Manhuwa]]",
+			"value": "Manhwa ",
 			"type": "text"
 		},
 		{
@@ -35,14 +40,24 @@
 			"type": "text"
 		},
 		{
+			"name": "ReadingSite",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
 			"name": "CurrentChapter",
 			"value": "",
-			"type": "text"
+			"type": "number"
+		},
+		{
+			"name": "Read",
+			"value": "",
+			"type": "checkbox"
 		}
 	],
 	"triggers": [
 		"https://toonily.com/serie/"
 	],
 	"noteNameFormat": "{{schema:headline}}",
-	"path": "99_Assets/Data_Notes"
+	"path": "DataNotes"
 }

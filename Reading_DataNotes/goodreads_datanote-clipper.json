@@ -11,7 +11,7 @@
 		},
 		{
 			"name": "Category",
-			"value": "[[Books]]",
+			"value": "Books",
 			"type": "text"
 		},
 		{
@@ -42,12 +42,17 @@
 		{
 			"name": "Pages",
 			"value": "{{schema:numberOfPages}}",
-			"type": "text"
+			"type": "number"
 		},
 		{
 			"name": "CurrentPage",
 			"value": "",
-			"type": "text"
+			"type": "number"
+		},
+		{
+			"name": "Read",
+			"value": "",
+			"type": "checkbox"
 		}
 	],
 	"triggers": [

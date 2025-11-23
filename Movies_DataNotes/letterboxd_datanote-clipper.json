@@ -11,7 +11,7 @@
 		},
 		{
 			"name": "Category",
-			"value": "[[Movies]]",
+			"value": "Movies",
 			"type": "text"
 		},
 		{

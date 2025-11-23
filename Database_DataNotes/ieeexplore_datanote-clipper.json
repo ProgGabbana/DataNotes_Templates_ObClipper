@@ -1,0 +1,58 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "IEEEXplore_DataNote",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "Database",
+			"value": "IEEEXplore",
+			"type": "text"
+		},
+		{
+			"name": "JournalTitle",
+			"value": "{{selector:.stats-document-abstract-publishedIn|replace:\\\"Published in: \\\":\\\"\\\"|first}}",
+			"type": "text"
+		},
+		{
+			"name": "Category",
+			"value": "{{selector:.breadcrumbs|split:\\\">\\\"|first|replace:\\\"Journals & Magazines\\\":\\\"Articles\\\"}}",
+			"type": "text"
+		},
+		{
+			"name": "Published",
+			"value": "{{selector:.doc-abstract-pubdate|date:\\\"DD/MM/YYYY\\\"}}{{selector:.doc-abstract-dateadded|date:\\\"DD/MM/YYYY\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "Author",
+			"value": "{{selector:.authors-info|replace:\\\";\\\":\\\"\\\"|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Abstract",
+			"value": "{{meta:property:og:description}}",
+			"type": "text"
+		},
+		{
+			"name": "ZoteroPath",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "Tags",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "Read",
+			"value": "",
+			"type": "checkbox"
+		}
+	],
+	"triggers": [
+		"https://ieeexplore.ieee.org/"
+	],
+	"noteNameFormat": "{{title}}",
+	"path": "99_Assets/DataNotes"
+}

@@ -5,13 +5,18 @@
 	"noteContentFormat": "",
 	"properties": [
 		{
+			"name": "Aliases",
+			"value": "{{selector:[class=\\\"text-sm text-neutral-400 mb-3 sm:mb-4\\\"]|replace:\\\"/\\\":\\\",\\\"}}",
+			"type": "multitext"
+		},
+		{
 			"name": "Cover",
 			"value": "{{schema:image}}",
 			"type": "text"
 		},
 		{
 			"name": "Category",
-			"value": "{{schema:genre|wikilink}}",
+			"value": "{{schema:genre}}",
 			"type": "text"
 		},
 		{
@@ -35,14 +40,24 @@
 			"type": "text"
 		},
 		{
+			"name": "ReadingSite",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
 			"name": "CurrentChapter",
 			"value": "",
-			"type": "text"
+			"type": "number"
+		},
+		{
+			"name": "Read",
+			"value": "",
+			"type": "checkbox"
 		}
 	],
 	"triggers": [
 		"https://mangataro.org/manga/"
 	],
-	"noteNameFormat": "{{schema:name|replace:\"Manhwa | Read Online Free at MangaTaro\":\"\"|replace:\"Manga | Read Online Free at MangaTaro\":\"\"|replace:\"|\":\"\"}}",
-	"path": "99_Assets/Data_Notes"
+	"noteNameFormat": "{{schema:name|replace:\"Novel| Read Online Free at MangaTaro\":\"\"|replace:\"Manhwa | Read Online Free at MangaTaro\":\"\"|replace:\"Manga | Read Online Free at MangaTaro\":\"\"|replace:\"|\":\"\"|replace:\"Manhua | Read Online Free at MangaTaro\":\"\"|replace:\"Webtoon| Read Online Free at MangaTaro\":\"\"}}",
+	"path": "DataNotes"
 }

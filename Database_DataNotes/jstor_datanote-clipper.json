@@ -1,0 +1,58 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "JSTOR_DataNote",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "Database",
+			"value": "JSTOR",
+			"type": "text"
+		},
+		{
+			"name": "JournalTitle",
+			"value": "{{selector:div[data-qa=\\\"journal\\\"] cite}}",
+			"type": "text"
+		},
+		{
+			"name": "Category",
+			"value": "{{selector:div[data-qa=\\\"content-type\\\"] span|replace:\\\"Journal Article\\\":\\\"Articles\\\"}}",
+			"type": "text"
+		},
+		{
+			"name": "Published",
+			"value": "",
+			"type": "date"
+		},
+		{
+			"name": "Author",
+			"value": "{{selector:div.item-authors mfe-content-details-pharos-link[data-qa=\\\"item-authors\\\"]}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Abstract",
+			"value": "{{selector:div.abstract div}}",
+			"type": "text"
+		},
+		{
+			"name": "ZoteroPath",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "Tags",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "Read",
+			"value": "",
+			"type": "checkbox"
+		}
+	],
+	"triggers": [
+		"https://www.jstor.org/"
+	],
+	"noteNameFormat": "{{title|replace:\" on JSTOR\":\"\"}}",
+	"path": "99_Assets/DataNotes"
+}

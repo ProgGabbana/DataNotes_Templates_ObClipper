@@ -1,0 +1,63 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Feltrinelli_DataNote",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "Cover",
+			"value": "{{image}}",
+			"type": "text"
+		},
+		{
+			"name": "Category",
+			"value": "Books",
+			"type": "text"
+		},
+		{
+			"name": "Published",
+			"value": "{{schema:mainEntity.datePublished|date:\\\"YYYY\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "Author",
+			"value": "{{schema:mainEntity.author}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Genres",
+			"value": "{{schema:breadcrumb|replace:\\\"Libri in inglese>\\\":\\\"\\\"|replace:\\\"Libri>\\\":\\\"\\\"|split:\\\">\\\"|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Description",
+			"value": "{{schema:mainEntity.description}}",
+			"type": "text"
+		},
+		{
+			"name": "Language",
+			"value": "{{schema:mainEntity.inLanguage}}",
+			"type": "text"
+		},
+		{
+			"name": "Pages",
+			"value": "{{schema:mainEntity.numberOfPages}}",
+			"type": "number"
+		},
+		{
+			"name": "CurrentPage",
+			"value": "",
+			"type": "number"
+		},
+		{
+			"name": "Read",
+			"value": "",
+			"type": "checkbox"
+		}
+	],
+	"triggers": [
+		"https://www.lafeltrinelli.it/"
+	],
+	"noteNameFormat": "{{schema:mainEntity.name}}",
+	"path": "DataNotes"
+}

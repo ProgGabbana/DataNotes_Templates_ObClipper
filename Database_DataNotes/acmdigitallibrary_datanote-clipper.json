@@ -1,0 +1,58 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "ACMDigitalLibrary_DataNote",
+	"behavior": "create",
+	"noteContentFormat": "",
+	"properties": [
+		{
+			"name": "Database",
+			"value": "ACM Digital Library",
+			"type": "text"
+		},
+		{
+			"name": "JournalTitle",
+			"value": "{{selector:div[property=\\\"isPartOf\\\"] a[property=\\\"name\\\"]|first}}",
+			"type": "text"
+		},
+		{
+			"name": "Category",
+			"value": "{{selector:.article__tocHeading|slice:1,2}}",
+			"type": "text"
+		},
+		{
+			"name": "Published",
+			"value": "{{selector:span.core-date-published|date:\\\"DD/MM/YYYY\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "Author",
+			"value": "{{selector:span.authors a[title]|join:\\\", \\\"}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Abstract",
+			"value": "{{selector:div[role=\\\"paragraph\\\"]|first}}",
+			"type": "text"
+		},
+		{
+			"name": "ZoteroPath",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "Tags",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "Read",
+			"value": "",
+			"type": "checkbox"
+		}
+	],
+	"triggers": [
+		"https://dl.acm.org/"
+	],
+	"noteNameFormat": "{{title|split:\"|\"|first}}",
+	"path": "99_Assets/DataNotes"
+}
