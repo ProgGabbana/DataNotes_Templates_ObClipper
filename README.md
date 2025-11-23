@@ -31,7 +31,7 @@ My primary method for finding articles is using [Google Scholar](httpsscholar.go
 - Access options Free
 - Provider ITHAKA
 
-![](Images/Pasted image 20251123162451.png)
+![](Images/JSTOR_Screen.png)
 
 ---
 ### IEEE Xplore
@@ -41,7 +41,7 @@ My primary method for finding articles is using [Google Scholar](httpsscholar.go
 - Access options Free
 - Provider IEEE (Institute of Electrical and Electronics Engineers)
 
-![](Images/Pasted image 20251123162555.png)
+![](Images/IEEEXplore_Screen.png)
 
 ---
 ### ACM Digital Library
@@ -51,7 +51,7 @@ The [ACM Digital Library](httpsdl.acm.org) is the world's most comprehensive dat
 - Access options Institutional Subscription (Transitioning to ACM Open model)
 - Provider ACM (Association for Computing Machinery)
 
-![](Images/Pasted image 20251123162815.png)
+![](Images/ACM_Screen.png)
 
 ---
 ### MDPI (Multidisciplinary Digital Publishing Institute)
@@ -61,7 +61,7 @@ The [ACM Digital Library](httpsdl.acm.org) is the world's most comprehensive dat
 - Access options Open Access (free for readers)
 - Provider MDPI (Multidisciplinary Digital Publishing Institute)
 
-![](Images/Pasted image 20251123162837.png)
+![](Images/MDPI.png)
 
 ---
 ## 🎬 Personal Hobbies & Entertainment Templates
