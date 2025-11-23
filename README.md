@@ -22,6 +22,7 @@ My primary method for finding articles is using [Google Scholar](httpsscholar.go
 - Provider Elsevier
 
 ![](Images/ScienceDirect_Screen.png)
+
 ---
 ### JSTOR
 [JSTOR](httpswww.jstor.org) is a valuable resource for finding research papers. Any article published before 1924 in the United States is available for free, and JSTOR also offers scholarships for independent researchers.
@@ -31,6 +32,7 @@ My primary method for finding articles is using [Google Scholar](httpsscholar.go
 - Provider ITHAKA
 
 ![](Images/Pasted image 20251123162451.png)
+
 ---
 ### IEEE Xplore
 [IEEE Xplore](httpsieeexplore.ieee.orgXplorehome.jsp) is the leading academic database in the field of engineering and computer science. It includes journal articles, conference papers, standards, and books.
@@ -40,6 +42,7 @@ My primary method for finding articles is using [Google Scholar](httpsscholar.go
 - Provider IEEE (Institute of Electrical and Electronics Engineers)
 
 ![](Images/Pasted image 20251123162555.png)
+
 ---
 ### ACM Digital Library
 The [ACM Digital Library](httpsdl.acm.org) is the world's most comprehensive database for full-text articles and bibliographic literature in computing and information technology. It includes academic journals, conference proceedings, newsletters, and technical magazines published by ACM.
@@ -49,6 +52,7 @@ The [ACM Digital Library](httpsdl.acm.org) is the world's most comprehensive dat
 - Provider ACM (Association for Computing Machinery)
 
 ![](Images/Pasted image 20251123162815.png)
+
 ---
 ### MDPI (Multidisciplinary Digital Publishing Institute)
 [MDPI](httpswww.mdpi.com) is a leading global publisher of Open Access scientific journals. It publishes a high volume of peer-reviewed articles across a wide range of disciplines, operating on an APC (Article Processing Charge) model paid by authors or their institutions.
@@ -58,6 +62,7 @@ The [ACM Digital Library](httpsdl.acm.org) is the world's most comprehensive dat
 - Provider MDPI (Multidisciplinary Digital Publishing Institute)
 
 ![](Images/Pasted image 20251123162837.png)
+
 ---
 ## 🎬 Personal Hobbies & Entertainment Templates
 This section contains templates I use for leisure reading and watching, though they can also be adapted for academic or study material from certain websites. These templates are categorized by the source they are designed to track
