@@ -68,11 +68,11 @@ The [ACM Digital Library](httpsdl.acm.org) is the world's most comprehensive dat
 This section contains templates I use for leisure reading and watching, though they can also be adapted for academic or study material from certain websites. These templates are categorized by the source they are designed to track
 ### 📖 Books & ComicsManga
 PlatformTypeNotes
-- [Goodreads](httpswww.goodreads.com)Book TrackingReviewsGlobal book community and tracking.
-- [Feltrinelli](httpswww.lafeltrinelli.it)Italian BookstoreFor tracking books from a major Italian retailer.
+- [Goodreads](httpswww.goodreads.com): Book TrackingReviewsGlobal book community and tracking.
+- [Feltrinelli](httpswww.lafeltrinelli.it): Italian BookstoreFor tracking books from a major Italian retailer.
 - [Mangatoro](httpsmangataro.orghome)
 - [Weeb Central](httpsweebcentral.com)
-- [Toonily](httpstoonily.com)ComicsManhwaManhua(Yes, I know what you're thinking, and you're not wrong, haha!)
+- [Toonily](httpstoonily.com) (Yes, I know what you're thinking, and you're not wrong, haha!)
 
 ### 🎥 Movies & Generic
 - [IMDb](httpswww.imdb.comitref_=hm_nv_home)   
