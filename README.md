@@ -67,19 +67,14 @@ The [ACM Digital Library](httpsdl.acm.org) is the world's most comprehensive dat
 ## 🎬 Personal Hobbies & Entertainment Templates
 This section contains templates I use for leisure reading and watching, though they can also be adapted for academic or study material from certain websites. These templates are categorized by the source they are designed to track
 ### 📖 Books & ComicsManga
-
 PlatformTypeNotes
----------
-[Goodreads](httpswww.goodreads.com)Book TrackingReviewsGlobal book community and tracking.
-[Feltrinelli](httpswww.lafeltrinelli.it)Italian BookstoreFor tracking books from a major Italian retailer.
-[Mangatoro](httpsmangataro.orghome)MangaComicsFor structured tracking of Japanese comics.
-[Weeb Central](httpsweebcentral.com)AnimeMangaNewsFor general tracking of Japanese media.
-[Toonily](httpstoonily.com)ComicsManhwaManhua(Yes, I know what you're thinking, and you're not wrong, haha!)
+- [Goodreads](httpswww.goodreads.com)Book TrackingReviewsGlobal book community and tracking.
+- [Feltrinelli](httpswww.lafeltrinelli.it)Italian BookstoreFor tracking books from a major Italian retailer.
+- [Mangatoro](httpsmangataro.orghome)
+- [Weeb Central](httpsweebcentral.com)
+- [Toonily](httpstoonily.com)ComicsManhwaManhua(Yes, I know what you're thinking, and you're not wrong, haha!)
 
 ### 🎥 Movies & Generic
-
- Platform                                      Type               Notes                                                      
- ------------------------------------------------  ---------------------  -------------------------------------------------------------- 
- [IMDb](httpswww.imdb.comitref_=hm_nv_home)  MovieTV Database      The Internet Movie Database for general tracking.              
- [Letterboxd](httpsletterboxd.com)             Movie Social Tracking  For reviews and social tracking of films.                      
- [YouTube](httpswww.youtube.com)               Video Content          A generic template for tracking and documenting video content. 
+- [IMDb](httpswww.imdb.comitref_=hm_nv_home)   
+- [Letterboxd](httpsletterboxd.com)                   
+- [YouTube](httpswww.youtube.com)
