@@ -75,7 +75,6 @@ This section contains templates I use for leisure reading and watching, though t
 | [Mangatoro](https://mangataro.org/home)      | Manga/Comics          | For structured tracking of Japanese comics.                     |
 | [Weeb Central](https://weebcentral.com/)     | Anime/Manga/News      | For general tracking of Japanese media.                         |
 | [Toonily](https://toonily.com/)              | Comics/Manhwa/Manhua  | (Yes, I know what you're thinking, and you're not wrong, haha!) |
-|                                              |                       |                                                                 |
 
 ### 🎥 Movies & Generic
 
