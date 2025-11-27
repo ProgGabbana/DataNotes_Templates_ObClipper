@@ -21,7 +21,7 @@
 		},
 		{
 			"name": "Published",
-			"value": "{{selector:span.core-date-published|date:\\\"DD/MM/YYYY\\\"}}",
+			"value": "{{selector:span.core-date-published|date:\\\"YYYY-MM-DD\\\"}}",
 			"type": "date"
 		},
 		{

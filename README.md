@@ -64,6 +64,16 @@ The [ACM Digital Library](httpsdl.acm.org) is the world's most comprehensive dat
 ![](Images/MDPI.png)
 
 ---
+### ArXiv
+[ArXiv](https://arxiv.org/) is a free distribution service and open-access archive for scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. It primarily hosts preprints—articles not yet peer-reviewed—making new research widely available very quickly.
+- Coverage Millions of articles (predominantly preprints)
+- Discipline Physics, Mathematics, Computer Science, Quantitative Sciences
+- Access options Open Access (Free)
+- Provider Cornell University
+
+![](Images/ArXiv.png)
+
+---
 ## 🎬 Personal Hobbies & Entertainment Templates
 This section contains templates I use for leisure reading and watching, though they can also be adapted for academic or study material from certain websites. These templates are categorized by the source they are designed to track:
 

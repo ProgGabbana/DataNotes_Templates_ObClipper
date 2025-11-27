@@ -21,7 +21,7 @@
 		},
 		{
 			"name": "Published",
-			"value": "{{selector:.pubhistory|split:\\\"/\\\"|last|date:\\\"DD/MM/YYYY\\\"}}",
+			"value": "{{selector:.pubhistory|split:\\\"/\\\"|last|date:\\\"YYYY-MM-DD\\\"}}",
 			"type": "date"
 		},
 		{

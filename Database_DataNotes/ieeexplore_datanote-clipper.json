@@ -21,7 +21,7 @@
 		},
 		{
 			"name": "Published",
-			"value": "{{selector:.doc-abstract-pubdate|date:\\\"DD/MM/YYYY\\\"}}{{selector:.doc-abstract-dateadded|date:\\\"DD/MM/YYYY\\\"}}",
+			"value": "{{selector:.doc-abstract-pubdate|date:\\\"YYYY-MM-DD\\\"}}{{selector:.doc-abstract-dateadded|date:\\\"YYYY-MM-DD\\\"}}",
 			"type": "date"
 		},
 		{
