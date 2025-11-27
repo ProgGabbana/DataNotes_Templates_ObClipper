@@ -66,15 +66,22 @@ The [ACM Digital Library](httpsdl.acm.org) is the world's most comprehensive dat
 ---
 ## 🎬 Personal Hobbies & Entertainment Templates
 This section contains templates I use for leisure reading and watching, though they can also be adapted for academic or study material from certain websites. These templates are categorized by the source they are designed to track
-### 📖 Books & ComicsManga
-PlatformTypeNotes
-- [Goodreads](httpswww.goodreads.com): Book TrackingReviewsGlobal book community and tracking.
-- [Feltrinelli](httpswww.lafeltrinelli.it): Italian BookstoreFor tracking books from a major Italian retailer.
-- [Mangatoro](httpsmangataro.orghome)
-- [Weeb Central](httpsweebcentral.com)
-- [Toonily](httpstoonily.com) (Yes, I know what you're thinking, and you're not wrong, haha!)
+### 📖 Books & Comics/Manga
+
+| **Platform**                                 | **Type**              | **Notes**                                                       |
+| -------------------------------------------- | --------------------- | --------------------------------------------------------------- |
+| [Goodreads](https://www.goodreads.com/)      | Book Tracking/Reviews | Global book community and tracking.                             |
+| [Feltrinelli](https://www.lafeltrinelli.it/) | Italian Bookstore     | For tracking books from a major Italian retailer.               |
+| [Mangatoro](https://mangataro.org/home)      | Manga/Comics          | For structured tracking of Japanese comics.                     |
+| [Weeb Central](https://weebcentral.com/)     | Anime/Manga/News      | For general tracking of Japanese media.                         |
+| [Toonily](https://toonily.com/)              | Comics/Manhwa/Manhua  | (Yes, I know what you're thinking, and you're not wrong, haha!) |
+|                                              |                       |                                                                 |
 
 ### 🎥 Movies & Generic
-- [IMDb](httpswww.imdb.comitref_=hm_nv_home)   
-- [Letterboxd](httpsletterboxd.com)                   
-- [YouTube](httpswww.youtube.com)
+
+| **Platform**                                     | **Type**              | **Notes**                                                      |
+| ------------------------------------------------ | --------------------- | -------------------------------------------------------------- |
+| [IMDb](https://www.imdb.com/it/?ref_=hm_nv_home) | Movie/TV Database     | The Internet Movie Database for general tracking.              |
+| [Letterboxd](https://letterboxd.com/)            | Movie Social Tracking | For reviews and social tracking of films.                      |
+| [YouTube](https://www.youtube.com/)              | Video Content         | A generic template for tracking and documenting video content. |
+
