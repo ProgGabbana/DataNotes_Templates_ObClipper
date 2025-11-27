@@ -65,7 +65,8 @@ The [ACM Digital Library](httpsdl.acm.org) is the world's most comprehensive dat
 
 ---
 ## 🎬 Personal Hobbies & Entertainment Templates
-This section contains templates I use for leisure reading and watching, though they can also be adapted for academic or study material from certain websites. These templates are categorized by the source they are designed to track
+This section contains templates I use for leisure reading and watching, though they can also be adapted for academic or study material from certain websites. These templates are categorized by the source they are designed to track:
+
 ### 📖 Books & Comics/Manga
 
 | **Platform**                                 | **Type**              | **Notes**                                                       |
